@@ -6,7 +6,10 @@
 
 body {
     margin-top: 100px;
-}
+    background-image:url(/mnt/chromeos/MyFiles/Downloads/eee8a4b9-28ad-480a-8ef6-b1dd37fda739.jpg;)
+    background-repeat: no-repeat;
+     background-size: cover;
+        }
 
 h1,
 h2,
