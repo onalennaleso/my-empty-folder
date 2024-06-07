@@ -1,91 +1,58 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --branding-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
 }
 
 body {
-    margin-top: 100px;
-    background-image:url(/mnt/chromeos/MyFiles/Downloads/eee8a4b9-28ad-480a-8ef6-b1dd37fda739.jpg;)
-    background-repeat: no-repeat;
-     background-size: cover;
-        }
+    font-family: var(--default-font-family);
+}
 
 h1,
 h2,
-h3 {
-    margin: 0;
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
 }
 
 h1 {
     font-size: 96px;
 }
 
-h2 {
-    font-size: 48px;
-}
-
-h3 {
-    font-size: 24px;
-    opacity: 0.7;
-}
-
 p {
-    font-size: 18px;
-    line-height: 1.5;
+    font-weight: normal;
 }
 
-.navigation-links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-}
-
-.navigation-links a {
-    margin: 20px;
-}
-
-.primary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-}
-
-.secondary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-    color: var(--primary-color);
+.hero {
+    background: var(--secondary-color);
     text-align: center;
-    display: block;
+    padding: 160px 20px;
 }
 
-.about-paragraphs {
-    margin: 30px 0;
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
 }
 
-.about-paragraphs p {
-    margin: 10px;
+.hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
 }
 
-.email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 28px;
-    text-decoration: none;
-}
-
-.email-link:hover {
-    text-decoration: underline;
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
