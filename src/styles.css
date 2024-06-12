@@ -108,6 +108,14 @@ p {
 .logo {
     max-width: 150px;
 }
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+}
 
 @media (max-width: 900px) {
     h1 {
