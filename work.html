@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mpho Khosana Portfolio</title>
+    <meta name="description" content="Artist roster">
+    <title>Work page - Mpho Khosana Portfolio</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
@@ -22,6 +23,25 @@
 </head>
 
 <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <img src="images/logo.jpg" class="logo" alt="EVC Logo" />
+            <ul>
+                <li>
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html" title="About Mpho">About</a>
+                </li>
+                <li class="active">
+                    <a href="/work.html" title="Artist Roster">Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact page">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="content-container container">
         <div class="content">
             <h1 class="mb-5">Artist Roster!</h1>
@@ -56,6 +76,33 @@
             </div>
         </div>
     </div>
+    <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h3>Work Inquiry</h3>
+                <p class="text-center">Let's work together</p>
+            </div>
+            <div>
+                <a href="/contact.html" class="btn btn-branding">Contact me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="mailto:mphokhosana67@gmail.com" class="email-link"> mphokhosana67@gmail.com </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://www.instagram.com/mpholongstar" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/Mpho Khosana" target="_blank" title="facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+        <p class="text-center mb-4">
+            🇿🇦This project was coded by Onalenna Leso, and it is
+            <a href="https://github.com/onalennaleso/my-empty-folder" target="_blank">open sourced</a>
+
+        </p>
+    </footer>
 </body>
 
 </html>
